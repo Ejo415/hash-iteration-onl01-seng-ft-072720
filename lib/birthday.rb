@@ -11,5 +11,7 @@ def happy_birthday(birthday_kids)
 end
 
 def age_approprate_birthday(birthday_kids)
-
+birthday_kids.each do |name, age|
+  if age < 12 puts 
+end
 
